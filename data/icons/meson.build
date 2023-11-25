@@ -1,4 +1,4 @@
-application_id = 'com.github.d4r1us_drk.elenco'
+application_id = 'org.gnome.Example'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

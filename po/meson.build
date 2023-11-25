@@ -1,1 +1,1 @@
-i18n.gettext('elenco', preset: 'glib')
+i18n.gettext('Example', preset: 'glib')
