@@ -1,0 +1,6 @@
+data/org.gnome.Example.desktop.in
+data/org.gnome.Example.metainfo.xml.in
+data/org.gnome.Example.gschema.xml
+src/main.vala
+src/window.vala
+src/ui/window.blp

@@ -1,0 +1,42 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $ExampleWindow : Adw.ApplicationWindow {
+    title: _("Example");
+    default-width: 800;
+    default-height: 750;
+
+    Box {
+        orientation: vertical;
+
+        HeaderBar {
+            [end] Gtk.MenuButton {
+                icon-name: "open-menu-symbolic";
+                menu-model: primary_menu;
+            }
+        }
+
+        Label {
+            hexpand: true;
+            vexpand: true;
+            label: "Example";
+        }
+    }
+}
+
+menu primary_menu {
+    section {
+        item {
+            label: _("Preferences");
+            action: "app.preferences";
+        }
+        item {
+            label: _("Keyboard Shortcuts");
+            action: "app.shortcuts";
+        }
+    }
+    item {
+        label: _("About Example");
+        action: "app.about";
+    }
+}
