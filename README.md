@@ -1,2 +1,2 @@
-# Elenco
-Elenco (WIP) is a streamlined productivity suite application designed to be both simple and elegant.
+# Vala & Blueprint GTK4+libadwaita Template
+Just a template to make GTK4+libadwaita apps easily.
