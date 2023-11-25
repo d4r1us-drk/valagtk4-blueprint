@@ -16,9 +16,6 @@ AUTHOR="Developer"
 # remove files that might conflict
 rm -rf build/ subprojects/blueprint-compiler/
 
-# remove git folder to unlink the new project from the template repository
-rm -rf .git/
-
 # rename files
 mv ./{org.gnome.Example,$PROJECT_ID}.json
 mv ./data/{org.gnome.Example,$PROJECT_ID}.metainfo.xml.in
