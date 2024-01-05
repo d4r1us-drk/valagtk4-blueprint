@@ -49,8 +49,8 @@
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "file:///var/home/drk/Projects"
+                    "type" : "dir",
+                    "url" : "."
                 }
             ]
         }
